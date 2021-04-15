@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box; /*diz que todas as informações do elemento não aleram no outro, respeitam a sua propria box*/
+}
+body{
+    font-family: Arial, sans-serif;
+    /* background-color: red; */
+}
+main{
+    display: flex;
+    justify-content: center; 
+    /*alinhamento na horizontal*/
+    align-items: center;  
+     /*alinhamento na vertical*/
+    padding: 50px 0; 
+    /* 50px para cima e para baixo e 0 para esquerda e direita*/
+   
+}
+.logo{
+    width: 150px;
+}
+
+.login{
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 40px 20px;
+    margin: 30px;
+}
+.login form input{
+    width: 100%;
+    height: 30px;
+    margin: 7px 0;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.login form button{
+    background-color: #0095f6;
+    color: #fff;
+    padding: 8px 10px;
+    margin: 15px 0;
+    width: 100%;
+    border: none;
+}
+.banner img{
+    width: 80%;
+}
+.cta-cadastro{
+    width: 100%;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    padding: 5px 20px;
+    border-radius: 6px;
+}
