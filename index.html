@@ -1,26 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta http-equiv="content-Type" content="text/html;charset=UTF-8">
     <link rel="stylesheet" href="CSS/style.css">
-    <title>Instragram - Login</title>
+    <title>Instragram - post</title>
 </head>
+
 <body>
     <main>
-        <div class="banner">
-            <img src="img/banner-login.png" alt="Smartphones com demonstração do instagram">
-        </div>
-        <div class="login">
-            <img src="img/logo.png" alt="Logo instagram" class="logo">
-            <form>
-                <input type="email" name="email" id="email" placeholder="nome de usuário ou email">
-                <input type="password" name="senha" id="senha" placeholder="senha" >
-                <button type="submit">Entrar</button>
-            </form>
-            <div class="cta-cadastro">
-                <p>Não tem conta? <a href="registro.html">Cadastre-se</a></p>
+        <article>
+            <div class="post-header">
+                <div class="usuario">
+                    <img src="img/avatar-example.png" alt="Foto de Gabriel">
+                    <strong>Gabriel Brunetti</strong>
+                </div>
+                <button><img src="img/icons/more-vertical.svg" alt=""></button>
             </div>
-        </div>
+            <div class="img-principal"></div>
+            <div class="comentarios">
+                <div class="legenda">
+                    <p>Foto do meu almoço</p>
+                    <div class="likes">
+                        <img src="img/icons/heart.svg" alt="">
+                        <span>3 likes</span>
+                    </div>
+                    <strong class="data">Postado no dia: 16/04/2020</strong>
+                </div>
+                <ol>
+                    <li>
+                        <p>Deu até fome!</p>
+                    </li>
+                    <li>
+                        <p>Uhh adorei</p>
+                    </li>
+                    <li>
+                        <p>Prefiro feijoada!</p>
+                    </li>
+                </ol>
+            </div>
+        </article>
     </main>
+    <footer>
+        copyright - 2021
+    </footer>
 </body>
+
 </html>
